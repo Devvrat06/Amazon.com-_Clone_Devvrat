@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-color: pink;
+    background-image: url("https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png");
+    background-size: cover;
+    height: 50px;
+    width: 100% ;
+}
+
+.border{
+    border: 2px solid transparent ;
+}
+.border:hover{
+    border: 1.5px solid white
+}
+.add-1{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #e6e6e6;
+    font-size: 14px;
+    text-align: center;
+    width: 50px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 216, 91);
+    color: black;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(175, 216, 91);
+}
+button{
+    background-color: rgb(175, 216, 91);
+    border: none;
+}
+button:hover{
+    transform: scale(1.3);
+}
+span{
+    font-size: 0.8rem;
+}
+.nav-same{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 32px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.hero-section{
+    background-image: url("https://m.media-amazon.com/images/I/71qcoYgEhzL._SX3000_.jpg");
+    background-size: cover;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-messg a {
+    text-decoration: none;
+    color: #007185;
+}
+.hero-messg{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-image{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-image:hover{
+    transform: scale(1.05);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.foot-panel1{
+    display: flex;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel1:hover{
+    background-color: #405672;
+}
+.foot-panel2{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ul p{
+    font-weight: 700;
+}
+.foot-panel3{
+    display: flex;
+    background-color: #222f3d;
+    height: 70px;
+    border-top: 0.3px solid white;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-color: pink;
+    background-image: url("https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.panel3-select1{
+    display: flex;
+    height: 35px;
+    background-color: #222f3d;
+    color: #CCCCCC;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.panel3-select2{
+    display: flex;
+    height: 35px;
+    background-color: #222f3d;
+    color: #CCCCCC;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.panel3-select3{
+    display: flex;
+    height: 35px;
+    background-color: #222f3d;
+    color: #CCCCCC;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.foot-panel4{
+    background-color: #131a22;
+    height: 80px;
+    color: #dddddd;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
+.pages a{
+    margin-left: 5px;
+}
+
